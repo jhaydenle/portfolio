@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+       <!-- poppins font family  -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+              <!-- fontawesome icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+           
+</head>
+<body>
+    
+    <header>
+
+        <nav class="navbar">
+          <div class="navbar-logo">
+            <span>Jhayden.</span>
+          </div>
+          <div class="navbar-toggle" onclick="toggleNav()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <ul class="navbar-menu" id="menu">
+            <li class="navbar-item active"><a href="#">Home</a></li>
+            <li class="navbar-item"><a href="#">About</a></li>
+            <li class="navbar-item"><a href="#">Project</a></li>
+            <li class="navbar-item"><a href="#">Blog</a></li>
+            <li class="navbar-item contact-me"><a href="#">Contact Me</a></li>
+          </ul>
+        </nav>
+        <div class="sidebar" id="sidebar">
+          <ul>
+            <li class="sidebar-close" onclick="closeNav()">&times;</li>
+            <li class="navbar-item active"><a href="#">Home</a></li>
+            <li class="navbar-item"><a href="#">About</a></li>
+            <li class="navbar-item"><a href="#">Project</a></li>
+            <li class="navbar-item"><a href="#">Blog</a></li>
+            <li class="navbar-item contact-me"><a href="#">Contcat Me</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-overlay" id="sidebar-overlay" onclick="closeNav()"></div>
+      </header>
+
+<!-- main section -->
+<main>
+    <div class="grid-wrapper">
+        <div class="grid-container">
+    <div class="part1">
+        <h2>Hello,</h2>
+        <h1>I am <span>Jhayden Le</span></h1>
+        <p class="desgination">UX/UI Designer</p>
+        <div class="seperator"></div>
+        <p class="main-text">I'm a person who has a keen interest in design layout. I think presenting an attractive design is a matter of concern in developing the branding of products. To create a good design,  I focus on proper composition and visual decoration details in order to make it more appealing to the eye. For the time being, I am honing my skills for UI/UX design for the sole purpose of dynamic application and web development.</p>
+        <button><i class="fa-solid fa-file-lines"></i> Download CV</button>
+    </div>
+    <div class="part2">
+        <div class="img-part">
+            <img src="images/main.png" alt="">
+        </div>
+      <div class="find-me">
+        <p>Find Me On</p>
+        <div class="fb social"><i class="fa-brands fa-facebook-f"></i></div>
+        <div class="insta social"><i class="fa-brands fa-instagram"></i></div>
+        <div class="whatsapp social"><i class="fa-brands fa-whatsapp"></i></div>
+        <div class="linkdin social"><i class="fa-brands fa-linkedin-in"></i></div>
+      </div>
+    </div>
+</div>
+</div>
+</main>
+
+<!-- What I offer Section -->
+<section class="offer">
+    <h6>What I Offer</h6>
+    <h2>Professional designs that are
+        oriented towards client needs</h2>
+        <div class="inner-offer">
+            <div class="cards">
+                <div class="card card1">
+                    <h4>Web Development</h4>
+                </div>
+                <div class="card card2">
+                    <h4>Web Design</h4>
+                </div>
+                <div class="card card3">
+                    <h4>Mobile App Design</h4>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="sec3">
+  <img src="images/sec3-background 1.png" alt="">
+  <div class="overlay-wrapper">
+  <div class="overlay">
+    <div class="inner-sec3">
+    <div class="card project">
+      <p class="number">04</p>
+      <p class="text">Completed Projects</p>
+   </div>
+      <div class="card experience">
+        <p class="number">06</p>
+        <p class="text">Months Of Experience</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- latest project section-->
+<section class="latest-project">
+  <div class="head">
+    <img src="images/MY PROJECT.png" alt="">
+    <div class="heading">
+      <h2>Latest Projects</h2>
+    </div>
+  </div>
+  <div class="projects-sec ">
+    <!-- 1 -->
+<div class="project">
+  <div class="part1">
+    <div class="img-container"></div>
+    <h3>DealDrop</h3>
+  </div>
+  <div class="part2">
+    <button>View Details</button>
+  </div>
+</div>
+<!-- 2 -->
+<div class="project">
+  <div class="part1">
+    <div class="img-container"></div>
+    <h3>Bureau Of Meteorology</h3>
+  </div>
+  <div class="part2">
+    <button>View Details</button>
+  </div>
+</div>
+<!-- 3 -->
+<div class="project">
+  <div class="part1">
+    <div class="img-container"></div>
+    <h3>Coupley</h3>
+  </div>
+  <div class="part2">
+    <button>View Details</button>
+  </div>
+</div>
+<!-- 4 -->
+<div class=" project4">
+  <div class="part1">
+    <h3>Have any project in mind?</h3> <br>
+    <p>I’m available for freelancing</p>
+  </div>
+  <div class="part2">
+    <button class="more-btn">More Projects</button>
+    <button><i class="fa-solid fa-envelope"></i> Email Me</button>
+  </div>
+</div>
+  </div>
+</section>
+
+<!-- Why Hire Me -->
+<section class="hire">
+  <div class="head">
+    <img src="images/WHY HIRE ME.png" alt="">
+    <div class="heading">
+      <h2>Why Hire Me</h2>
+    </div>
+  </div>
+  <div class="hire-inner">
+    <!-- 1 -->
+    <div class="block">
+   <div class="wrapper">   
+    <div class="img-container">
+<img src="images/workaholic.svg">
+   </div></div>
+      <h4>Workaholic</h4>
+      <p>I’m a kind of person who can’t just stand around and doing nothing. I have a tendency to always be doing something productive.</p>
+    </div>
+    <!-- 2 -->
+    <div class="block">
+      <div class="wrapper">
+        <div class="img-container">
+          <img src="images/communicative.svg">
+        </div></div>
+      <h4>Communicative</h4>
+      <p>I have a broad understanding of verbal vocabulary. Therefore, I can convey a message well to the receiver.</p>
+    </div>
+    <!-- 3 -->
+    <div class="block">
+      <div class="wrapper">
+        <div class="img-container">
+          <img src="images/cooperative.svg">
+        </div></div>
+      <h4>Cooperative</h4>
+      <p>Behind the successful project, there’s a great team. I can build a good cooperation and remain consistent with the goal.</p>
+    </div>
+    <!-- 4 -->
+    <div class="block">
+      <div class="wrapper">
+        <div class="img-container">
+          <img src="images/perfectionist.svg">
+        </div></div>
+      <h4>Perfectionist</h4>
+      <p>I have a strong intuition. I have remained consistent with high quality standards to present a most worthy result.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+<h6>Testimonials</h6>
+<h2>What They Say About Me</h2>
+<div class="wrapper">
+  <div class="carousel">
+    <div class="items">
+      <div class="item">
+        <img src="images/lachytestimonial.png" alt="">
+        <div class="text">
+            <p class="main">Jhayden has proven to be a great designer to watch grow. The UI designs he has created are top-notch and the design system he integrates allows for straight forward fixes throughout every area of the app. I'm looking forward to witness his upcoming projects. </p>
+            <h4>Lachlan Siu</h4>
+            <p class="designation">UX/UI Designer</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/lachytestimonial.png" alt="">
+        <div class="text">
+            <p class="main">Jhayden has proven to be a great designer to watch grow. The UI designs he has created are top-notch and the design system he integrates allows for straight forward fixes throughout every area of the app. I'm looking forward to witness his upcoming projects. </p>
+            <h4>Ephy Sanowski</h4>
+            <p class="designation">UX/UI Designer</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/lachytestimonial.png" alt="">
+        <div class="text">
+            <p class="main">Jhayden has proven to be a great designer to watch grow. The UI designs he has created are top-notch and the design system he integrates allows for straight forward fixes throughout every area of the app. I'm looking forward to witness his upcoming projects. </p>
+            <h4>John Doe</h4>
+            <p class="designation">UX/UI Designer</p>
+        </div>
+      </div>
+    </div>
+    <button class="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+</div>
+</section>
+<!-- Tools and Skills -->
+<section class="skill">
+  <div class="head">
+    <img src="images/TOOLS AND SKILLS.png" alt="">
+    <div class="heading">
+      <h2>Tools and Skills</h2>
+    </div>
+  </div>
+  <div class="skill-inner">
+    <div class="block">
+      <div class="img-container">
+        <img src="images/ps.png">
+      </div>
+      <h4>Photoshop</h4>
+    </div>
+    <div class="block">
+      <div class="img-container">
+        <img src="images/figma.png">
+      </div>
+      <h4>Figma</h4>
+    </div>
+    <div class="block">
+      <div class="img-container">
+        <img src="images/html.png">
+      </div>
+      <h4>HTML</h4>
+    </div>
+    <div class="block">
+      <div class="img-container">
+        <img src="images/css.png">
+      </div>
+      <h4>CSS</h4>
+    </div>
+    <div class="block">
+      <div class="img-container">
+        <img src="images/js.png">
+      </div>
+      <h4>JavaScript</h4>
+    </div>
+  </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+   <div class="grid-container">
+    <div class="part1">
+      <h2>Get in Touch</h2>
+      <p class="get-text">For business and partnership inquiries please contact me below!</p>
+      <div class="block">
+        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+       <div class="text">
+        <p class="label">Phone</p>
+        <a href="">0411-557-900</a>
+       </div>
+      </div>
+      <!-- 2 -->
+      <div class="block">
+        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+       <div class="text">
+        <p class="label">Email</p>
+        <a href="">jhaydenle@gmail.com</a>
+       </div>
+      </div>
+      <!-- 3 -->
+      <div class="block">
+        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+       <div class="text">
+        <p class="label">Location</p>
+        <a href="">Melbourne, Australia</a>
+       </div>
+      </div>
+    </div>
+    <div class="part2">
+      <img src="images/Vector.png" alt="">
+    </div>
+   </div>
+  </footer>
+  <script src="./function.js"></script>
+</body>
+</html>
